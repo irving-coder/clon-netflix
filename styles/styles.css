@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.clearfixed{
+    clear: both;
+    float: none;
+}
+
+#container{
+    width: 100%;
+    height: 1160px;
+    margin: 0% auto;
+    background-image: url('../imagenes/fondo.png');
+}
+
+#header{
+    width: 100%;
+    height: 80px;
+    margin-bottom: 11px;
+}
+
+#logo{
+    display: block;
+    float: left;
+}
+
+#logo img{
+    margin-top: -35px;
+    width: 165px;
+    height: 165px;
+    margin-left: 25%;
+}
+
+
+/* log */
+#log-in{
+    display: block;
+    width: 314px;
+    height: 660px;
+    margin: 0px auto;
+    padding-top: 60px;
+    padding-left: 68px;
+    padding-right: 68px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 6px;
+}
+
+#log-in h2{
+    font-size: 32px;
+    color: white;
+    margin-bottom: 28px;
+}
+
+#log-in #form input[type="e-mail"],
+#log-in #form input[type="password"]{
+    width: 294px;
+    height: 50px;
+    margin-bottom: 16px;
+    padding-left: 20px;
+    background-color: #333;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+
+#log-in #form label{
+    display: block;
+    position: absolute;
+    color: #888;
+}
+
+#log-in #form label[for="e-mail"],
+#log-in #form label[for="password"]{
+    margin-top: -50px;
+    padding-left: 20px;
+}
+
+#log-in #form button{
+    width: 314px;
+    height: 48px;
+    margin-top: 24px;
+    margin-bottom: 10px;
+    background-color: #e50914;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#log-in #form input[type="checkbox"]{
+    margin-top: 5px;
+    margin-left: 1px;
+}
+
+#log-in #form label[for=remember]{
+    float: left;
+    /* position: unset; */
+    padding-left: 20px;
+    margin-top: -17px;
+    font-size: 13px;
+    color: #b3b3b3;
+}
+
+#log-in #form span{
+    float: right;
+    margin-top: 4px;
+    font-size: 13px;
+}
+
+#log-in #form span a{
+    color: #b3b3b3;
+    text-decoration: none;
+}
+
+#log-in ul{
+    color: #777;
+    margin-top: 35px;
+    font-size: 13px;
+    list-style: none;
+}
+
+#log-in ul .social-webs img{
+    width: 20px;
+    height: 20px;
+}
+
+#log-in ul .social-webs a{
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 10px;
+}
+
+#log-in p{
+    color: #777;
+}
+
+#log-in #subscribe{
+    margin-top: 12px;
+}
+
+#log-in #subscribe a{
+    text-decoration: none;
+    color: white;
+}
+
+#log-in #recaptcha,
+#log-in #more-info{
+    font-size: 13px;
+    margin-top: 13px;
+}
+
+#log-in #more-info a{
+    text-decoration: none;
+    color: #0080ff;
+}
+
+/* footer */
+#footer{
+    width: 100%;
+    height: 260px;
+    margin: 0px auto;
+    margin-top: 90px;
+    background-color:rgba(0, 0, 0, 0.8);
+    color: #777;
+}
+
+#footer #wrap{
+    margin: 0% 13%;
+}
