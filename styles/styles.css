@@ -25,6 +25,27 @@
     margin-bottom: 11px;
 }
 
+#login{
+    display: block;
+    float: right;
+    width: 140px;
+    height: 30px;
+    margin-right: 4%;
+    margin-top: 30px;
+    padding-top: 12px;
+    border-radius: 5px;
+    background-color: #e50914;
+}
+
+#login a{
+    padding-left: 25px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    text-decoration: none;
+}
+
 #logo{
     display: block;
     float: left;
