@@ -46,6 +46,29 @@
     text-decoration: none;
 }
 
+#section-index{
+    width: 57%;
+    margin: 0 auto;
+    margin-top: 150px;
+    color: white;
+    text-align: center;
+}
+
+#section-index h2{
+    font-size: 66px;
+}
+
+#section-index p{
+    margin-top: 20px;
+    font-family: Arial;
+    font-size: 27px;
+}
+
+#section-index p:last-child{
+    margin-top: 30px;
+    font-size: 19px;
+}
+
 #logo{
     display: block;
     float: left;
