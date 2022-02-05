@@ -11,12 +11,18 @@
 
 /* #e50914; Color botón 'Iniciar sesión'*/
 
+#container-index{
+    width: 100%;
+    height: 100vh;
+    margin: 0% auto;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0,0,0,0.6), rgba(0,0,0,0.2), rgba(0,0,0,0.6), rgba(0, 0, 0, 0.9)),url('../imagenes/Netflix-Background.jpg');
+}
+
 #container{
     width: 100%;
     height: 1160px;
     margin: 0% auto;
-    /* background-image: url('../imagenes/fondo.png'); */
-    background-image: url('../imagenes/Netflix-Background.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../imagenes/Netflix-Background.jpg');
 }
 
 #header{
@@ -47,7 +53,7 @@
 }
 
 #section-index{
-    width: 57%;
+    width: 55%;
     margin: 0 auto;
     margin-top: 150px;
     color: white;
@@ -55,17 +61,17 @@
 }
 
 #section-index h2{
-    font-size: 66px;
+    font-size: 64px;
 }
 
-#section-index p{
-    margin-top: 20px;
-    font-family: Arial;
+#disfruta{
+    margin-top: 25px;
     font-size: 27px;
 }
 
-#section-index p:last-child{
+#ingresa{
     margin-top: 30px;
+    font-family: Arial;
     font-size: 19px;
 }
 
