@@ -75,6 +75,18 @@
     font-size: 19px;
 }
 
+#new-user{
+    width: 60%;
+    height: 65px;
+    border-radius: 0;
+    color: #777;
+    font-size: 16px;
+}
+
+#new-user{
+    border: #0080ff 1px solid;
+}
+
 #logo{
     display: block;
     float: left;
