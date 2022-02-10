@@ -75,16 +75,28 @@
     font-size: 19px;
 }
 
-#new-user{
+#new-user label{
+    position: absolute;
+    z-index: 9;
+    margin-top: 25px;
+    margin-left: 10px;
+    color: #777;
+}
+
+#new-user input{
     width: 60%;
     height: 65px;
+    padding-left: 15px;
     border-radius: 0;
     color: #777;
     font-size: 16px;
+    transition: all 500ms;
 }
 
-#new-user{
-    border: #0080ff 1px solid;
+#new-user input:focus{
+    padding-top: -20px;
+    font-size: 14px;
+    border: #0080ff 0.5px solid;
 }
 
 #logo{
