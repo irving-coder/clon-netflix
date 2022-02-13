@@ -9,8 +9,6 @@
     float: none;
 }
 
-/* #e50914; Color botón 'Iniciar sesión'*/
-
 #container-index{
     width: 100%;
     height: 100vh;
@@ -96,7 +94,7 @@
 #new-user input:focus{
     padding-top: -20px;
     font-size: 14px;
-    border: #0080ff 0.5px solid;
+    border: #0080ff 1px solid;
 }
 
 #new-user button{
