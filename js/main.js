@@ -9,6 +9,6 @@
   inputEmail.addEventListener('click', () => {
     labelEmail.style.margin = '0px 5px 0px 0px';
     labelEmail.style.margin = '0px 0px 0px 5px';
-    labelEmail.style.fontsize = '10px';
+    labelEmail.style.fontSize = '10px';
   });
 })();
