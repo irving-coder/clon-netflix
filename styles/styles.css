@@ -77,8 +77,9 @@
     position: absolute;
     z-index: 9;
     margin-top: 25px;
-    margin-left: 10px;
+    margin-left: 15px;
     color: #777;
+    transition: all 300ms;
 }
 
 #new-user input{
@@ -97,6 +98,7 @@
     border: #0080ff 1px solid;
 }
 
+/* Falta alinear botón con input */
 #new-user button{
     width: 215px;
     height: 66px;

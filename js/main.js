@@ -4,11 +4,15 @@
   let inputEmail = document.querySelector('[name="email"]');
   let labelEmail = document.querySelector('[for="email"]');
 
-  /* Queda pendiente evento cuando se enfoque en el input el 'label' se
-  recorre hacia arriba y minimiza su tamañan un poco */
   inputEmail.addEventListener('click', () => {
-    labelEmail.style.margin = '0px 5px 0px 0px';
-    labelEmail.style.margin = '0px 0px 0px 5px';
+    labelEmail.style.marginTop = '10px';
     labelEmail.style.fontSize = '10px';
   });
+
+  inputEmail.addEventListener('blur', () => {
+    labelEmail.style.marginTop = '25px';
+    labelEmail.style.fontSize = '15px';
+  });
+
+  /* Falta alinear botón con input */
 })();
