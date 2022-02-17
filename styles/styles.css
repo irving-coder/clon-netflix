@@ -51,7 +51,7 @@
 }
 
 #section-index{
-    width: 55%;
+    width: 42%;
     margin: 0 auto;
     margin-top: 150px;
     color: white;
@@ -59,7 +59,7 @@
 }
 
 #section-index h2{
-    font-size: 64px;
+    font-size: 62px;
 }
 
 #disfruta{
@@ -70,7 +70,8 @@
 #ingresa{
     margin-top: 30px;
     font-family: Arial;
-    font-size: 19px;
+    font-size: 18px;
+    margin-bottom: 17px;
 }
 
 #new-user label{
@@ -84,8 +85,9 @@
 
 #new-user input{
     width: 60%;
-    height: 65px;
+    height: 48px;
     padding-left: 15px;
+    padding-top: 14px;
     border-radius: 0;
     color: #777;
     font-size: 16px;
@@ -100,9 +102,9 @@
 
 /* Falta alinear botón con input */
 #new-user button{
-    width: 215px;
+    width: 230px;
     height: 66px;
-    padding-top: 5px;
+    padding-top: 4px;
     background-color: #e50914;
     border: none;
     color: white;
