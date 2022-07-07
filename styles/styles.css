@@ -123,6 +123,15 @@
     margin-left: 26%;  /*25%*/
 }
 
+#loguito{
+    width: 190px;
+    height: 50px;
+    position: absolute;
+    margin-top: -110px; /* -115px */
+    margin-left: 35px;
+    cursor: pointer;
+}
+
 
 /* log */
 #log-in{
